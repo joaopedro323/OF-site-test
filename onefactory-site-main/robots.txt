@@ -1,0 +1,169 @@
+#######################################################################################
+## Faça as configurações de permissões que achar necessário neste arquivo robots.txt ##
+#######################################################################################
+
+##### Todos os navegadores #####
+################################
+
+User-agent: *
+Allow: /
+
+##### Bing #####
+################
+
+User-agent: Bingbot
+Allow: /
+
+##### Google #####
+##################
+
+User-agent: Googlebot
+Allow: /
+
+##### Google Imagens #####
+##########################
+
+User-agent: Googlebot-Image
+Allow: /
+
+##### Sites Parceiros do Google #####
+#####################################
+
+User-agent: Mediapartners-Google
+Allow: /
+
+##### Google Ads #####
+######################
+
+User-agent: Adsbot-Google
+Allow: /
+
+##### Google Ads para Aplicativos Mobile #####
+##############################################
+User-agent: AdsBot-Google-Mobile-Apps
+Allow: /
+
+##### Google Bot Mobile #####
+#############################
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+##### Google Notícias #####
+###########################
+
+User-agent: Googlebot-News
+Allow: /
+
+##### Youtube #####
+###################
+
+User-agent: Googlebot-Video
+Allow: /
+
+##### Google Ads Mobile #####
+#############################
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+##### Yahoo #####
+#################
+
+User-agent: Slurp
+Allow: /
+
+##### Apple #####
+#################
+
+User-agent: Applebot
+Allow: /
+
+##### Baidu #####
+#################
+
+User-agent: baiduspider
+Allow: /
+
+##### Discordbot #####
+######################
+
+User-agent: Discordbot
+Allow: /
+
+
+##### Outros buscadores #####
+#############################
+
+User-agent: MSNBot
+Allow: /
+
+User-agent: Teoma
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: Gigabot
+Allow: /
+
+User-agent: Robozilla
+Allow: /
+
+User-agent: Nutch
+Allow: /
+
+User-agent: ia_archiver
+Allow: /
+
+User-agent: Pinterestbot
+Allow: /
+
+User-agent: seznambot
+Allow: /
+
+User-agent: Screaming Frog SEO Spider
+Allow: /
+
+User-agent: naverbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: yeti
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: yahoo-mmcrawler
+Allow: /
+
+User-agent: psbot
+Allow: /
+
+User-agent: yahoo-blogs/v3.9
+Allow: /
+
+##### Os rastreadores de mídia social#####
+##########################################
+
+User-agent: Twitterbot
+Allow: /imgres
+
+User-agent: facebookexternalhit
+Allow: /imgres
+
+
+##### Diretórios #####
+######################
+
+Disallow: /cgi-bin/
+Disallow: /scripts/
+Disallow: /tmp/
+
+##### Sitemap #####
+###################
+
+Sitemap: https://onefactory/sitemap.xml

@@ -1,0 +1,1 @@
+if(!localStorage.getItem("cookiesAccepted")){var cookieMessage=document.getElementById("cookie-notification"),closeCookie=document.getElementById("cookie-notification-close");cookieMessage.style.display="block",closeCookie.addEventListener("click",(function(e){e.preventDefault(),localStorage.setItem("cookiesAccepted",!0),cookieMessage.style.display="none"}))}

@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "route": "/quem-somos",
+      "methods": [
+        "get"
+      ],
+      "rewrite": "/about.html",
+      "allowedRoles": [
+        "anônimo"
+      ]
+    }
+  ]
+}
